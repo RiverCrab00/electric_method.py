@@ -10,7 +10,8 @@ class OpenFile(QtWidgets.QMainWindow):
     def __init__(self, parent= None):  
         QtWidgets.QWidget.__init__(self)  
           
-        self.setGeometry(300, 300, 150, 110)  
+        self.setGeometry(800, 800, 400, 300)  
+        #setGeometry是resize()和move()的合体,前面尺寸后面位置
         self.setWindowTitle('OpenFile')  
         self.textEdit = QTextEdit()  
         self.setCentralWidget(self.textEdit)  
