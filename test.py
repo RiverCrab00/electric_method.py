@@ -60,8 +60,6 @@ def  electric_processing(data):
 
 
 
-
-
 fileName = input('请输入文件名:')
 data = foo(fileName)
 #结果result
